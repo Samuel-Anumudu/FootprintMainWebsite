@@ -288,8 +288,8 @@ header .def__header-overlay {
   /* margin: 20px 0; */
   /* font-weight: lighter; */
   /* color: #fff; */
-  color: rgba(212, 212, 216, 1);
-  font-weight: 300 !important;
+  color: rgb(235, 235, 238);
+  /* font-weight: 300 !important; */
   /* line-height: 1.75rem; */
   font-size: 16px;
 }
@@ -401,9 +401,9 @@ header .def__header-overlay {
 .s-box p {
   text-align: center;
   margin: 20px 0;
-  font-weight: lighter;
+  font-weight: 380 !important;
   color: #4e4e4e;
-  font-size: 12px;
+  font-size: 12.5px;
 }
 
 .s-box:hover {
@@ -938,7 +938,7 @@ header .def__header-overlay {
   }
 
   .about__us__paragraph p {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 }
 
