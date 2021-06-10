@@ -610,7 +610,7 @@ header .def__header-overlay {
 .contact__container .contact__info .box .text {
   display: flex;
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 14px;
   flex-direction: column;
   font-family: "Century Gothic";
   color: #f9f9f9;
