@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 /* BASE */
 body {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 body.hidden-scrolling {
@@ -11,6 +11,7 @@ body.hidden-scrolling {
 }
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -91,7 +92,7 @@ a {
 
 .header .menu > .menu-item > a .plus:before,
 .header .menu > .menu-item > a .plus:after {
-  content: "";
+  content: '';
   position: absolute;
   box-sizing: border-box;
   left: 50%;
@@ -176,7 +177,7 @@ a {
 
 .header .open-nav-menu span:before,
 .header .open-nav-menu span:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 100%;
@@ -292,6 +293,9 @@ header .def__header-overlay {
   /* font-weight: 300 !important; */
   /* line-height: 1.75rem; */
   font-size: 16px;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .nav-ul li {
@@ -323,7 +327,7 @@ header .def__header-overlay {
 }
 
 .about__us__paragraph {
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic';
   font-size: 100%;
 
   font-weight: 400;
@@ -341,6 +345,7 @@ header .def__header-overlay {
   /* font-weight: lighter; */
   color: #4e4e4e;
   font-size: 16px;
+  text-align: center !important;
 }
 
 .about__us__paragraph p:last-child {
@@ -569,7 +574,7 @@ header .def__header-overlay {
 }
 
 .contact__us .contact__us__content p {
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic';
   font-size: 100%;
   color: #f9f9f9;
 }
@@ -612,13 +617,13 @@ header .def__header-overlay {
   margin-left: 18.5px;
   font-size: 12.5px;
   flex-direction: column;
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic';
   color: #f9f9f9;
 }
 
 .contact__container .contact__info .box .text h3 {
   font-weight: 500 !important;
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic';
 }
 
 .contactForm {
@@ -631,7 +636,7 @@ header .def__header-overlay {
   font-size: 30px;
   color: #f9f9f9;
   font-weight: 500;
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic';
 }
 
 .contactForm .inputBox {
@@ -656,7 +661,7 @@ header .def__header-overlay {
   resize: none;
 }
 
-.contactForm .inputBox input[type="submit"] {
+.contactForm .inputBox input[type='submit'] {
   width: 100px;
   background: #00bcd4;
   color: #fff;
@@ -670,7 +675,7 @@ header .def__header-overlay {
   transition: all 0.3s ease-out;
 }
 
-.contactForm .inputBox input[type="submit"]:hover {
+.contactForm .inputBox input[type='submit']:hover {
   background: #fff;
   color: #000;
 }
@@ -749,7 +754,7 @@ header .def__header-overlay {
   text-align: center;
   color: #787878;
   font-size: 14px;
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic';
 }
 
 /* ------------------------------------- */
